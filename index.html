@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>ejercicio 1</p>
+<p id="f"></p>
+<p>ejercicio 3</p>
+<p id="g"></p>
+
+<script>
+/*let persona=[
+    { nombre:"kiben",
+    edad: 22,
+    profesion: "Ingeniero"},
+    { nombre:"Cristian",
+    edad: 32,
+    profesion: "Informatico"},
+    { nombre:"Belen",
+    edad: 21,
+    profesion: "Ingeniera"}
+];
+let cadenaPerson=persona.toString();
+console.log(cadenaPerson);
+document.getElementById("p").innerHTML = persona[2].nombre+","+persona[2].edad;*/
+
+/*
+const frutas = ["manzana", "pera", "frutilla", "Mango","Mandarina","papaya","uva"];
+let fLen = frutas.length;
+
+let text = "<ul>";
+for (let i = 0; i < fLen; i++) {
+  text += "<li>" + frutas[i] + "</li>";
+}
+text += "</ul>";
+document.getElementById("f").innerHTML = text;*/
+
+const numero = [9,1,Math.pow(3, 2),7/4,0,2.25*8.5,0.8,Math.PI/8];
+document.getElementById("f").innerHTML = numero;
+
+let x=3.4;
+let y=5.8;
+const num = [x/y,x+y,Math.pow(x, y),x*y,Math.pow(y, 2),x];
+document.getElementById("g").innerHTML = num;
+</script>
+
+</body>
+</html>
